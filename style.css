@@ -1,0 +1,61 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    line-height: 30px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-shadow: 3px 2px 3px black;
+}
+
+img {
+    width: 200px;
+    align-self: center;
+}
+
+body {
+    background-image: url(
+        https://cdn.pixabay.com/photo/2020/04/13/22/18/waterfall-5040210_1280.jpg
+    );
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    padding: 20px 50px 50px 50px;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(3, 35, 5, 0.621);
+    border: rgb(45, 110, 62) 8px dashed;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease;
+}
+
+main:hover {
+    background-color: rgb(1, 14, 2);
+}
+
+footer {
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+footer p {
+    color: black;
+}
